@@ -15,6 +15,11 @@ document.getElementById('longin-button').addEventListener('click', function(){
     if(userEmail == 'mofu@gmail.com' && userPassword == 'mofu'){
         window.location.href = 'banking.html';
     }
+<p id="name">Programming Hero</p>
 
+
+const nameOfOrganization = document.getElementById("name").value;
+   
+console.log(nameOfOrganization);
 
 })
